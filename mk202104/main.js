@@ -29,8 +29,8 @@ class Player {
 
 };
 
-const scorpion = new Player('SCORPION', 50);
-const subZero = new Player('SUBZERO', 80);
+const scorpion = new Player('SCORPION', 50, null, ['ice']);
+const subZero = new Player('SUBZERO', 80, null, ['lasso']);
 scorpion.attack();
 subZero.attack();
 
